@@ -30,7 +30,7 @@
 
 /* */
 .btn-wrapper button {
-  background-Color: 'red';
+  background-Color: red;
   border: '0px';
   padding: '10px';
   border-radius: '4px';
@@ -53,7 +53,7 @@
   float: left;
   width: 120px;
   display: inline-block;
-  padding: 20px;
+  padding: 14px;
   height: 70px;
 }
 .add-to-cart img{
@@ -61,6 +61,22 @@
   position: absolute;
   right: 1%;
   top: 1%;
+}
+.cart-count{
+  position: absolute;
+  top: 12px;
+  right: 10px;
+  z-index: 1;
+  background-color: red;
+  padding: 4px;
+  width: 20px;
+  color: #fff;
+  height: 20px;
+  border-radius: 50%;
+}
+button.remove-cart-btn{
+  margin-top: 10px;
+  background-color: rebeccapurple;
 }
 /* */
 
